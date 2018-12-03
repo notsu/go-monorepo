@@ -1,1 +1,1 @@
-module github.com/notsu/gomono/post
+module github.com/notsu/gomono/services/post
