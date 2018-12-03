@@ -1,3 +1,2 @@
-github.com/notsu/gomono v1.0.0 h1:L+5A38ndmk+PD3PVSiVbkNxCB8/M+rKoLafjc/qD9CU=
-github.com/notsu/gomono/services/post v0.0.0-20181203092009-5a4cbedea3da h1:1/Z63A/sby9iPlcPK9vgt+s3jDtryTfG/vPBA0/dDWg=
-github.com/notsu/gomono/services/post v0.0.0-20181203092009-5a4cbedea3da/go.mod h1:8JeevdERGziP+laKlTe7nDE0C1zkwFUI/+FHFFQMXNQ=
+github.com/notsu/gomono/services/post v0.0.0-20181203094246-bc9985ebc58b h1:TOgzco4g2QDT3/Ehd/zePWs2dJQJKByJ+CT/065jZ80=
+github.com/notsu/gomono/services/post v0.0.0-20181203094246-bc9985ebc58b/go.mod h1:8JeevdERGziP+laKlTe7nDE0C1zkwFUI/+FHFFQMXNQ=
