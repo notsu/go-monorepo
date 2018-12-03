@@ -5,8 +5,8 @@ import (
 
 	hello "github.com/notsu/gomono/services/post/hello"
 	helloV4 "github.com/notsu/gomono/services/post/v4/hello"
-	helloV501 "github.com/notsu/gomono/services/post/v5.0.1/hello"
 	helloV5 "github.com/notsu/gomono/services/post/v5/hello"
+	helloV501 "github.com/notsu/gomono/services/post/v501/hello"
 )
 
 func main() {

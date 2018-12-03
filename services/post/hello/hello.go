@@ -2,5 +2,5 @@ package hello
 
 // Hello to another services
 func Hello() string {
-	return "Hello, World 5.0.1"
+	return "Hello, World 6"
 }
