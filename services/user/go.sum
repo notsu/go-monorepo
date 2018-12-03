@@ -8,3 +8,5 @@ github.com/notsu/gomono/services/post/v4 v4.0.0-20181203102839-24b25d3ad3d4 h1:R
 github.com/notsu/gomono/services/post/v4 v4.0.0-20181203102839-24b25d3ad3d4/go.mod h1:BdYE8itEMA9XNwZ6R7akprI/0A4Hc37Gy82ur+Xjj7k=
 github.com/notsu/gomono/services/post/v5 v5.0.0-20181203103920-14a868e28952 h1:aw8ZhOLkDZfvO1nM9s0RzrIvimNDhOJp3TDPcZ1XhoE=
 github.com/notsu/gomono/services/post/v5 v5.0.0-20181203103920-14a868e28952/go.mod h1:eqs2wjWEneQf5tP8yQxeM3058oLNHZjW0IF2jmAgl1U=
+github.com/notsu/gomono/services/post/v6 v6.0.0-20181203104529-e912a1f75486 h1:ZKxqA8kmo2+5taCGW97xGGWMZ4DB9ACUfJHAZpa4CGw=
+github.com/notsu/gomono/services/post/v6 v6.0.0-20181203104529-e912a1f75486/go.mod h1:KjPU6Uvwi1RfjdkR3c+P1/Ay6krsAzFcEDbLz0TTIFw=
