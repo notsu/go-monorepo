@@ -1,0 +1,23 @@
+version: "3.5"
+
+services:
+
+  post:
+    build:
+      context: ./
+      dockerfile: ./build/Dockerfile.dev
+    volumes:
+      - ./services/post:/src/go
+      - $GOPATH/pkg/mod:/go/pkg/mod
+    working_dir: /src/go
+    command: go run main.go
+
+  user:
+    build:
+      context: ./
+      dockerfile: ./build/Dockerfile.dev
+    volumes:
+      - ./services/user:/src/go
+      - $GOPATH/pkg/mod:/go/pkg/mod
+    working_dir: /src/go
+    command: go run main.go
