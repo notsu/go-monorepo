@@ -22,9 +22,17 @@ docker-compose up
 
 ### Explanation
 
-package main
+For many years, the official Go FAQ has included this advice on package versioning:
+
+> "Packages intended for public use should try to maintain backwards compatibility as they evolve. The Go 1 compatibility guidelines are a good reference here: don't remove exported names, encourage tagged composite literals, and so on. If different functionality is required, add a new name instead of changing an old one. If a complete break is required, create a new package with a new import path."
+
+The last sentence is especially important — if you break compatibility, you should change the import path of your package. With Go 1.11 modules, that advice is formalized into the import compatibility rule:
+
+> "If an old package and a new package have the same import path, the new package must be backwards compatible with the old package."
 
 ```
+package main
+
 import (
 	"fmt"
 
@@ -45,7 +53,6 @@ func main() {
 
 Reference
 - [Releasing Modules (v2 or Higher)](https://github.com/golang/go/wiki/Modules#releasing-modules-v2-or-higher)
-
 
 ## Built With
 
