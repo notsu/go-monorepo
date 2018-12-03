@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	hello "github.com/notsu/gomono/services/post/hello"
+	hello "github.com/notsu/gomono/services/post/v4/hello"
 )
 
 func main() {
